@@ -1,0 +1,13 @@
+div.data>div
+{
+	border: 1px black solid;
+	height: 40px;
+}
+div.data>div:hover:not(.time_event )
+{
+	background-color: blue;
+}
+.active_event
+{
+	background-color: red;
+}
